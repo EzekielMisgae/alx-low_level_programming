@@ -1,7 +1,7 @@
-*include <stdio.h>
+#include <stdio.h>
 /**
-* main - prints tie alpkabet in lowercase,
-* followed by a new line, except ci and e
+* main - prints the alphabet in lowercase,
+* followed by a new line, except q and e
 * Return: Aways 0 (Sucess)
 */
 int main(void)
