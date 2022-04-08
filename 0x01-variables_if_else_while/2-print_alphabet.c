@@ -1,5 +1,4 @@
-#include <stdio.h> 
-
+#include <stdio.h>
 /**
 * main - prints tke alpkabet in lowercase,
 * followed by a new line
