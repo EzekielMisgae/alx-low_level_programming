@@ -10,8 +10,8 @@ char ch;
 ch = 'a';
 while (ch <= 'z')
 {
-_putchar(ch);
+putchar(ch);
 ch++;
 }
--putchar('\n')
+putchar('\n')
 }
