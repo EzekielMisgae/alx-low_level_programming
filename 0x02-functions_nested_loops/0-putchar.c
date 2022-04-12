@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
-* Main - prints _putchar followed by a new line
+* print_putchar - prints _putchar followed by a new line
 * Return: Always 0 (success)
 */
-int main(void)
+void print_putchar(void)
 {
 printf("_putchar\n");
 return (0);
