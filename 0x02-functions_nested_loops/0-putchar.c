@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* main - prints the size
+* main - displays text
 * Return: 0 if exited properly
 */
 
