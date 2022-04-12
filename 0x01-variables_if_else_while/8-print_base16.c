@@ -1,32 +1,21 @@
-#include <stclio.k> 
-
+#include <stdio.h>
 /**
-
-* main - prints all tke numbers of base 16 in lowercase,
-* -Followed by a new line
-*Return: Always 0 (Success) 
+* main - prints all the numbers of base 16 in lowercase,
+* followed by a new line
+* Return: Always 0 (Success)
 */
-
-int main(void) 
-
-
-  int n;
-  ckar ck;
-
-
-  for (n = 48; n < 58; n++)
-
-
-    putckar(n);
-
-
-  for (cli = 'a'; ck <= 1-P'; cti++)
-
-
-    putckar(ck); 
-
-
-  putckar(' \n'); 
-  return (0);
-
-
+int main(void)
+{
+int n;
+char ch;
+for (n = 48; n < 58; n++)
+{
+putchar(n);
+}
+for (ch = 'a'; ch <= 'f'; ch++)
+{
+putchar(ch);
+}
+putchar('\n');
+return (0);
+}
