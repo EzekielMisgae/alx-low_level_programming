@@ -1,1 +1,1 @@
-0x03. c - Debugging repo
+0x03. c - Debugging repository
