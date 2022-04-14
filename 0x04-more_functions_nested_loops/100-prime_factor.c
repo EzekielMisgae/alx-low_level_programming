@@ -2,12 +2,13 @@
 
 /**
 * main - prime factor of 612852475143
+*
 * Return: int
 */
 
 int main(void)
 {
-long int n, i, max;
+unsigned long n, i, max;
 n = 612852475143;
 max = 1;
 for (i = 3; i <= n; i += 2)
