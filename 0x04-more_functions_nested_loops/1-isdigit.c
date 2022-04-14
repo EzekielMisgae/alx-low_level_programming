@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * mul - multilpy 2 int
 * @a: int multiplied to b
