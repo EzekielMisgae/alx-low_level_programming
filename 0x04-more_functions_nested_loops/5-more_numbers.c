@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * more_numbers - prints 10 times the number form 0 to 14
 * followed by a new line
@@ -15,6 +14,6 @@ if (j >= 10)
 _putchar(j / 10 + '0');
 _putchar(j % 10 + '0');
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
