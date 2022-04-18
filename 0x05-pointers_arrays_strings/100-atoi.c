@@ -34,3 +34,7 @@ m = 0;
 }
 i++;
 }
+if (m == 0)
+return (0);
+return (n);
+}
