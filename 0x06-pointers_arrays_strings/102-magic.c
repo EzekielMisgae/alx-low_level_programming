@@ -1,6 +1,4 @@
-#include "main.h"
 #include <stdio.h>
-
 
 int main(void)
 {
@@ -10,7 +8,7 @@ int *p;
 
 a[2] = 1024;
 p = &n;
-/**
+/*
 * You are not allowed to use the variable a in your new line of code
 * You are not allowed to modify the variable p
 * You can only write one statement
@@ -20,5 +18,3 @@ p = &n;
 printf(a[2] = %d\n", a[2]);
 return (0);
 }
-
-
