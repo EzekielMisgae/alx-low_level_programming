@@ -5,7 +5,7 @@
 * @dest: destination of string
 * @src: source of string
 * @n: number of bytes
-* Result: pointer to resulting string
+* Return: pointer to resulting string
 */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -13,6 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 int i;
 i = 0;
+
 while (src[i] != '\0' && i < n)
 {
 dest[i] = src[i];
