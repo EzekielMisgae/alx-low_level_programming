@@ -9,6 +9,7 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
+* Return: 0 for every
 * write your line of code here
 * Remember:
 * - you are not allowed to use a
