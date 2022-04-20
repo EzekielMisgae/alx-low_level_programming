@@ -1,5 +1,5 @@
-#indef _MAIN.H_
-#endf
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -14,4 +14,4 @@ void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 
-#endef
+#endif
