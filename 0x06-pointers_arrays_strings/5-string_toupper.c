@@ -2,10 +2,10 @@
 /**
 * string_toupper - changes all lowercase to upper case
 * @s:string to modify
-* Return: the string result
+* Return: the resulting string
 */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 int i;
 for (i = 0; s[i] != '\0'; i++)
