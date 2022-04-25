@@ -8,4 +8,4 @@ This firectory contains files called:
 7-print_chessboard.c
 8-print_diagsums.c
 100-set_string.c
-101-crackme_password
+101-crackme_password - contains password for executable file crackme2 
