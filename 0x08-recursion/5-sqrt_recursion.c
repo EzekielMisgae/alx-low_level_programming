@@ -6,14 +6,12 @@
 * @b: integer 2
 * Return: integer
 */
-
 int check(int a, int b)
 {
 if (a * a == b)
 return (a);
 if (a * a > b)
 return (-1);
-if (a * a < b)
 return (check(a + 1, b));
 }
 
