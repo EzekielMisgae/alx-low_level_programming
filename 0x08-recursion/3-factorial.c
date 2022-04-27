@@ -8,13 +8,11 @@
 
 int factorial(int n)
 {
-int n, fact=1, number;
-printf("Enter a number: ");
-scanf("%d", &number);
-for(n = 1; n <= number; n++)
-{
-factorial = factorial * n;
-}
-printf("Factorial of %d is: %d", number, factorial);
-return 0;
+int n_factorial;
+if (n < 0)
+return (-1);
+else if (n == 0)
+return (1);
+n_factorial = factorial(n - 1);
+return (n * n_factorial);
 }
