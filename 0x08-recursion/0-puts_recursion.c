@@ -6,7 +6,7 @@
 *
 */
 
-void MyPrint(const char *str
+void _puts_recursion(char *s)
 {
   int len = strlen(s) + 1;
   char *temp = alloca(len);
@@ -14,7 +14,7 @@ void MyPrint(const char *str
   int i;
   for (i = 0; i < len; i++)
   {
-    char ch = str[i];
+    char ch = s[i];
     if (ch == '\n')
       break;
     temp[i] = ch;
