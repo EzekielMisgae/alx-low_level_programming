@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main: Display the number of arguments
+* main: Prints the number of arguments
 * @argc: the number of arguments
 * @argv: An array of argument
 * Return: number of argument
