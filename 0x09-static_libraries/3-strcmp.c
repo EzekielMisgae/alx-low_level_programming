@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * _strcmp - compares two strings
 * @s1: first string to compare
@@ -7,7 +6,6 @@
 * Return: less than 0 if s1 less than s2, if s1 equal s2 0,
 * if s1 more than 0 if s1 s2 greater than s2
 */
-
 int _strcmp(char *s1, char *s2)
 {
 while (*s1 == *s2)
