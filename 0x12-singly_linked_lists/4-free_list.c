@@ -6,8 +6,8 @@
 
 /**
 * free_list - free lists
-* *head - list enter to a function
-/**
+* @head: list enter to a function
+*/
 
 void free_list(list_t *head)
 
