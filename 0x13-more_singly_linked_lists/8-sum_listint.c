@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
-* sum_listint - returns the sum of all the data ([node]->n) of a listint_t linked list
-* @head: pointer to the first member of a singly linked list of structs of type listint_s
-* Return: sum of all the 'int n' elements of each struct in a listint_t linked list
+* sum_listint - returns the sum of all the data ([node]->n) of a linked list
+* @head: pointer to the first member of a singly linked list of structs
+* Return: sum of all the 'int n' elements of each struct in a linked list
 */
 
 int sum_listint(listint_t *head)
