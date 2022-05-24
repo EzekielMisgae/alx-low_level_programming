@@ -1,56 +1,50 @@
 #include "lists.h"
 
 /**
- * listint_len - counts all the elements of a struct list type listint_t
- *
- * @h: pointer to the head/first member of a singly linked list of structs
- * of type listint_s
- *
- * Return: amount of nodes in the list
- */
+* listint_len - counts all the elements of a struct list type listint_t
+* @h: pointer to the head/first member of a singly linked list of structs of type listint_s
+* Return: amount of nodes in the list
+*/
 
 size_t listint_len(const listint_t *h)
 {
-	size_t count = 1;
+size_t count = 1;
 
-	if (h)
-	{
-		if (h->next)
-			count += listint_len(h->next);
+if (h)
+{
+if (h->next)
+count += listint_len(h->next);
 
-		return (count);
-	}
-	else
-		return (0);
+return (count);
+}
+else
+return (0);
 }
 
 /**
- * add_nodeint - adds a new node to the start of a struct list type listint_t
- *
- * @head: double pointer to the first member of a singly linked list
- * of structs of type listint_s
- *
- * @n: int to store in n member of new listint_s struct
- *
- * Return: address of the new element, or NULL if it failed
- */
+* add_nodeint - adds a new node to the start of a struct list type listint_t
+* @head: double pointer to the first member of a singly linked list
+* of structs of type listint_s
+* @n: int to store in n member of new listint_s struct
+* Return: address of the new element, or NULL if it failed
+*/
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *new_n;
+listint_t *new_n;
 
-	new_n = malloc(sizeof(listint_t));
-	if (!new_n)
-	{
-		free(new_n);
-		return (NULL);
-	}
+new_n = malloc(sizeof(listint_t));
+if (!new_n)
+{
+free(new_n);
+return (NULL);
+}
 
-	new_n->n = n;
-	new_n->next = *head;
-	*head = new_n;
+new_n->n = n;
+new_n->next = *head;
+*head = new_n;
 
-	return (new_n);
+return (new_n);
 }
 
 /**
