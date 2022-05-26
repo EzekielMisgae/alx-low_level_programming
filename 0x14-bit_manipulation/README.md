@@ -1,1 +1,1 @@
-Not empty readme file for bit manipulation
+t empty readme file for bit manipulation
